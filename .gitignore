@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+airflow_venv/
+
+# Airflow runtime (on VM)
+airflow/
+*.log
+
+# Data produced by DAG runs
+data/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets
+.env
+*.pem
+
+# pytest
+.pytest_cache/
+.coverage
